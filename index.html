@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-reset.css">
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="style-index-tablets.css">
+    <link rel="stylesheet" href="style-index-moviles.css">
+    <link rel="stylesheet" href="style-toast.css">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    
+    <ul>
+        <p class="desarrollador">Desarrollado por:</p> 
+        <p class="desarrollador">Miguel Angel </p>
+        <p class="desarrollador">Barrantes Flores</p>
+        <li><a href="https://www.linkedin.com/in/miguel-barrantes-flores/"><img class="fab" src="images/linkedin.png"></i></a></li>
+        <li><a href="https://github.com/Miki106"><img class="fab" src="images/github.png"></a></li>
+        
+    </ul>
+    <div class="rectangulo">
+        <img class="rectangulo">
+    </div>
+    <div class="logo">
+        <img class="img-logo" src="images/Alura-Oracle-Logo.png">
+    </div>
+    <div class="titulo">
+        <img class="img-titulo" src="images/título.png">
+    </div>
+    <textarea class="tit-prin" id="Texto" placeholder="Ingrese el texto aquí"></textarea>
+    <div class="div-advetencia">
+        <img class="warning" id="idwarning" src="images/warning.png">
+        <p class="p-forma" id="iderror">Solo letras minúsculas y sin acentos (máx. 400 caracteres)</p>
+    </div>
+    <div class="div-botones">
+        <button class="encriptar">
+            <p class="p-encriptar">Encriptar</p>
+        </button>
+        <button class="desencriptar">
+            <p class="p-desencriptar">Desencriptar</p>
+        </button>
+    </div>
+    <div class="text-area">
+        <textarea class="frase-codificada" id="fraseCodi" readonly></textarea>
+        <img src="images/muneco.png" alt="" class="muneco">
+        <div class="descr-area">
+            <p class="p-descr-area-tit">Ningún mensaje fue encontrado</p>
+            <p class="p-descr-area-descr">Ingrese el texto que desea encriptar o desencriptar</p>
+        </div>
+        <button class="copiar">
+            <p class="p-copiar">Copiar</p>
+        </button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
